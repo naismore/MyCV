@@ -5,6 +5,9 @@ on:
     branches:
       - main  # или ваша основная ветка
 
+permissions:
+  contents: write  # Разрешение на запись в репозиторий
+
 jobs:
   build:
     runs-on: ubuntu-latest
