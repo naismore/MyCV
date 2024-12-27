@@ -23,7 +23,7 @@ jobs:
         sudo pip install pelican[markdown]
     
     - name: Build Site
-      run: pelican content -o output -s pelicanconf.py
+      run: pelican-quickstart
 
     - name: Setup Pages
       id: pages
