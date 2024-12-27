@@ -1,7 +1,7 @@
 AUTHOR = 'Me'
 SITENAME = 'CV'
 SITEURL = ""
-
+#1
 PATH = "content"
 
 TIMEZONE = 'Europe/Moscow'
