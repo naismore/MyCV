@@ -1,6 +1,6 @@
 AUTHOR = 'Me'
 SITENAME = 'CV'
-SITEURL = ""
+SITEURL = "https://naismore.github.io/MyCv/"
 
 PATH = "content"
 

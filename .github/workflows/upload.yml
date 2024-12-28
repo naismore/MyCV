@@ -17,7 +17,11 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: '3.13'
-
+    
+    - name: install virtualenv
+      run: |
+        sudo apt-get install python-virtualenv virtualenv
+    
     - name: Install deps
       run: |
         sudo pip install pelican[markdown]
