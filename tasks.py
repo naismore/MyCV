@@ -116,7 +116,7 @@ def livereload(c):
 
     static_file_extensions = [".css", ".js"]
     for extension in static_file_extensions:
-        static_file_glob = f"{theme_path}/static/**/*{extension}"
+        static_file_glob = f"{theme_path}/**/*{extension}"
         watched_globs.append(static_file_glob)
 
     for glob in watched_globs:
